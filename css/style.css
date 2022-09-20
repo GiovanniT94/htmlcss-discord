@@ -8,7 +8,6 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
-/* general styles */
 
 .container {
 	max-width: 1000px;
@@ -106,4 +105,24 @@ header {
 	margin-right: .5em;
 }
 
-.sfondo-grigio 
+.main-sfondo {
+	background-size: cover;
+	display: flex;
+	max-width: 1000px;
+	margin: 0 auto;
+
+}
+
+.sfondo-grigio {
+	background-color: lightgray;
+	background-size: cover;
+	max-width: 1300px;
+	display: flex;
+	align-items: middle;
+}
+
+.sfondo-bianco {
+	max-width: 1000px;
+	display: flex;
+	align-items: center;
+}
